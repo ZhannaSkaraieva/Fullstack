@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <title>Fullstack</title>
+  </head>
+
+  <body>
+    <!--Wrapper-->
+
+    <div class="Wrapper">
+      <!--Main menu-->
+
+      <div class="Menu">
+        <nav>
+          <ul>
+            <li class="list"><a href="/index.html">MAIN PAGE</a></li>
+            <li class="list"><a href="/pages/about.html">ABOUT</a></li>
+            <li class="list"><a href="/pages/articles.html">ARTIClES</a></li>
+            <li class="list"><a href="/pages/contacts.html">CONTACTS</a></li>
+            <li class="list"><a href="/pages/gallery.html">GALLERY</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Text-contacts-page-->
+
+      <div class="introduction-contacts">
+        <h1>CONTACTS</h1>
+      </div>
+
+      <div class="text-contacts-page">
+        <p>
+          <span>Cell:</span>
+          <a href="tel:+380000000000">+38 000 000 00 00</a>
+        </p>
+        <p>
+          <span>Email:</span>
+          <a href="mailto:online@gmail.com">online@gmail.com</a>
+        </p>
+      </div>
+
+      <!--List lessons-->
+
+      <div class="List-lessons">
+        <h3 class="all-lessons">All lessons</h3>
+        <ul>
+          <li class="lessons">
+            <a title="Lesson 1." href="./pages/articles.html#section1"
+              >Lesson 1.</a
+            >
+          </li>
+          <li class="lessons">
+            <a href="./pages/articles.html#Lesson2">Lesson 2.</a>
+          </li>
+          <li class="lessons">
+            <a href="./pages/articles.html#Lesson3">Lesson 3.</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <form>
+          <fieldset>
+            <legend>Є питання?</legend>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" /><br /><br />
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="course">Вибір курсу:</label>
+            <select id="course" name="course">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">JavaScript</option></select
+            ><br /><br />
+            <label for="message">Ваш коментар:</label><br /><br />
+            <textarea id="message" name="message" rows="4" cols="50">
+Текст за замовчуванням, який буде в полі вводу.</textarea
+            >
+          </fieldset>
+          <input type="submit" value="Надіслати" />
+        </form>
+      </div>
+
+      <!--Footer-->
+      <div class="Footer">
+        <footer>
+          <p>Author: Zhanna Skaraieva</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

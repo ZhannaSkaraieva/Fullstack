@@ -1,0 +1,160 @@
+/*Wrapper*/
+
+.Wrapper {
+    width: 1300px;
+    border: solid;
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+   
+    background-color: rgb(219, 239, 233);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Main menu*/
+
+.Menu{
+    margin: 5px;
+    padding: 5px;
+    border: solid darkblue;
+    background-color: rgb(157, 246, 246);
+    font-weight: bold;
+    text-align: center;
+ 
+}
+
+.list {
+    list-style-type: none;
+}
+
+/*Text-main-page*/
+
+.text-main-page {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.introduction-main {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+/*Text-about-page*/
+
+.introduction-about {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.text-about-page {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+/*Text-articles-page*/
+
+.introduction-articles {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.text-articles-page {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.text-articles-page2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.text-articles-page3 {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    font-style: oblique;
+}
+
+/*Text-contacts-page*/
+
+.introduction-contacts {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.text-contacts-page {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+/*Text-gallery-page*/
+
+.introduction-gallery {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.first-gallery {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.second-gallery {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+} 
+
+.link {
+    margin: auto;
+}
+
+.picture {
+   text-align: center;
+}
+
+
+
+
+/*List-lessons*/
+
+.List-lessons {
+    margin: 5px;
+    padding: 5px;
+}
+
+.all-lessons {
+    font-weight: bold;
+    text-align: left;
+}
+
+.lessons {
+    list-style-type: none;
+}
+
+
+/*Footer*/
+
+.Footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}

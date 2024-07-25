@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Fullstack</title>
+  </head>
+
+  <body>
+    <!--Wrapper-->
+
+    <div class="Wrapper">
+      <h1><strong>Fullstack JS</strong></h1>
+
+      <!--Main menu-->
+
+      <div class="Menu">
+        <nav>
+          <ul>
+            <li class="list"><a href="/index.html">MAIN PAGE</a></li>
+            <li class="list"><a href="/pages/about.html">ABOUT</a></li>
+            <li class="list"><a href="/pages/articles.html">ARTIClES</a></li>
+            <li class="list"><a href="/pages/contacts.html">CONTACTS</a></li>
+            <li class="list"><a href="/pages/gallery.html">GALLERY</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Text-main-page-->
+
+      <div class="introduction-main">
+        <h2>Вступ до курсу.</h2>
+      </div>
+
+      <div class="text-main-page">
+        <dl>
+          <dt>Frontend розробка</dt>
+          <dd>
+            це процес створення візуальної частини веб-сайту або веб-додатку,
+            яку бачить користувач. Вона включає в себе дизайн, інтерфейси,
+            анімацію, а також реакцію на дії користувача на сайті.
+          </dd>
+          <dt>Backend розробка</dt>
+          <dd>
+            це процес створення серверної частини веб-додатку, яка відповідає за
+            обробку запитів від користувачів, взаємодію з базами даних і
+            виконання бізнес-логіки.
+          </dd>
+        </dl>
+        <p>
+          Full-Stack JS розробник - це спеціаліст, який володіє навичками роботи
+          з frontend та backend частинами веб-застосунків, використовуючи
+          JavaScript стек технологій.
+        </p>
+      </div>
+
+      <div>
+        <img
+          src="./images/fvb-difference.png"
+          alt="fvb-difference"
+          width="300"
+          height="200"
+        />
+        <p>How to become a Full Stack Web Developer</p>
+        <picture>
+          <source
+            media="(min-width:650px)"
+            srcset="./images/large-imgonline-com-ua-resize.jpg"
+          />
+          <source
+            media="(min-width:465px)"
+            srcset="./images/medium-imgonline-com-ua-resize.jpg"
+          />
+          <img
+            src="./images/small-imgonline-com-ua-resize.jpg"
+            alt="How to become a Full Stack Web Developer"
+          />
+        </picture>
+      </div>
+
+      <!--List lessons-->
+
+      <div class="List-lessons">
+        <h3 class="all-lessons">All lessons</h3>
+        <ul>
+          <li class="lessons">
+            <a title="Lesson 1." href="./pages/articles.html#section1"
+              >Lesson 1.</a
+            >
+          </li>
+          <li class="lessons">
+            <a href="./pages/articles.html#Lesson2">Lesson 2.</a>
+          </li>
+          <li class="lessons">
+            <a href="./pages/articles.html#Lesson3">Lesson 3.</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <form action="/submit-form" method="post">
+          <fieldset>
+            <legend>Хочеш бути в курсі останніх новин?</legend>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" />
+          </fieldset>
+
+          <input type="submit" value="Підписатися" />
+        </form>
+      </div>
+
+      <!--Footer-->
+      <div class="Footer">
+        <footer>
+          <p>Author: Zhanna Skaraieva</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
